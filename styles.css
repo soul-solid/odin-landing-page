@@ -41,6 +41,10 @@ body {
     display: flex;
     gap: 24px;
     list-style-type: none;
+    font-size: 24px;
+    font-family: "girassol", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header ul a {
@@ -58,24 +62,39 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 70px;
-    padding: 16px;
+    padding: 40px;
     gap: 8px;
     background-color: var(--background);
     color: var(--headline);
 }
 
+.intro h1 {
+    font-size: 48px;
+    font-family: "amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .intro p {
     color: var(--paragraph);
+    font-size: 18px;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .intro button {
     background-color: var(--background);
     color: var(--headline);
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     border: 2px solid black;
     border-radius: 5px;
+    font-size: 24px;
+    font-family: "girassol", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .intro button:hover {
@@ -87,7 +106,10 @@ body {
 .intro figure {
     text-align: center;
     color: var(--paragraph);
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .intro figure a {
@@ -100,55 +122,88 @@ body {
 }
 
 .intro-img {
-    width: 400px;
+    width: 500px;
     height: auto;
     border-radius: 10%;
 }
 
-.section-2 {
+.product {
     padding: 32px;
     width: 100%;
 }
 
-.section-2 h2 {
+.product h2 {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 32px;
+    font-family: "girassol", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.section-2 .cars {
+.product .cars {
     display: flex;
     flex-shrink: 1;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
     margin-bottom: 16px;
 }
 
-.section-2 .cars img {
-    height: 150px;
-    width: 200px;
+.product .cars img {
+    height: 230px;
+    width: 250px;
     border-radius: 5%;
+}
+
+.product p {
+    font-size: 18px;
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .quote {
     background-color: var(--btn);
-    padding: 32px;
+    padding: 64px 32px;
     text-align: center;
+}
+
+.quote blockquote {
+    font-size: 40px;
+    font-family: cabin-sketch-bold, sans-serif;
 }
 
 .quote p {
     text-align: right;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-4 .holder {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 64px;
+    margin: 72px 80px;
     padding: 16px;
     background-color: var(--background);
     color: var(--headline);
+}
+
+.section-4 h3 {
+    font-size: 24px;
+    font-family: "amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-4 p {
+    font-size: 18px;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-4 button {
@@ -159,6 +214,10 @@ body {
     height: 50px;
     border: 2px solid black;
     border-radius: 5px;
+    font-size: 24px;
+    font-family: "girassol", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .section-4 button:hover {
@@ -171,7 +230,14 @@ body {
     text-align: center;
     background-color: var(--background);
     color: var(--headline);
-    font-size: 12px;
+    font-size: 14px;
+    font-family: "eb-garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer .copyright {
+    font-size: 16px;
 }
 
 .credits {
